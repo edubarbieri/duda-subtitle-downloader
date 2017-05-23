@@ -1,0 +1,14 @@
+{
+  "name": "duda-subtitle-downloader",
+  "version": "1.0.0",
+  "description": "Duda subtitle downloader",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "duduardo23@gmail.com",
+  "license": "WTFPL",
+  "dependencies": {
+    "opensubtitles-api": "^4.0.0-rc1",
+    "request": "^2.81.0"
+  }
+}

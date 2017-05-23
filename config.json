@@ -1,0 +1,24 @@
+{
+	"__opensubtitles": "configurações da conta, necessario criar uma conta no www.opensubtitles.org",
+	"opensubtitles": {
+		"useragent": "Nodejs",
+		"username": "youremail@gmail.com",
+		"password": "yourpassword"
+	},
+	"__folderToScan" : "Pasta que sera analisada para download das legendas",
+	"folderToScan": "/u01/media/TV Shows",
+	
+	"__videoFormats" : "Formato de videos suportados",
+	"videoFormats": [
+		".mp4",
+		".mkv",
+		".avi",
+		".wmv",
+		".mpg",
+		".mpeg"
+	],
+	"__language" : "Idioma das legendas",
+	"language": "pob",
+	"__limit" : "Numero de legendas baixadas na pesquisa por nome",
+	"limit": "3"
+}
