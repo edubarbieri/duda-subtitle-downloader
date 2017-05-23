@@ -8,7 +8,23 @@ Em um primeiro momento é buscado a legenda no opensubtitle a partir do hash do 
 Videos que já possuem legendas são ignorados.
 
 
-Configurações:
+## Requisitos:
+Nodejs 6
+
+## Instalação dependências
+```bash
+cd duda-subtitle-downloader
+npm install
+```
+## Execução
+```
+node index.js
+```
+
+
+
+## Configurações
+
 config.json
 
 ```javascript
