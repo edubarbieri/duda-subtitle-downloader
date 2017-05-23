@@ -11,7 +11,7 @@ Videos que já possuem legendas são ignorados.
 Configurações:
 config.json
 
-```json
+```javascript
 {
 	//Configurações da conta, necessario criar uma conta no www.opensubtitles.org
 	"opensubtitles": {
