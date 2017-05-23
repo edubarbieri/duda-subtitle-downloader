@@ -3,7 +3,7 @@ Duda subtitle downloader.
 
 Este script percorre a pasta configurada e suas subpastas, verificando se os arquivos são videos e realiza o download da legenda apropriada para cada.
 
-Num primeiro momento é buscado a legenda no opensubtitle a partir do hash do vídeo, caso não seja encontrada legenda correspondente, é então realizado query por nome do arquivo, e baixado as primeiras legendas encontradas.
+Em um primeiro momento é buscado a legenda no opensubtitle a partir do hash do vídeo, caso não seja encontrada legenda correspondente, é então realizado query por nome do arquivo, e baixado as primeiras legendas encontradas.
 
 Videos que já possuem legendas são ignorados.
 
@@ -22,7 +22,7 @@ config.json
 	//Pasta que sera analisada para download das legendas
 	"folderToScan": "/u01/media/TV Shows",
 	
-	//"Formato de videos suportados
+	//"Formatos de videos suportados
 	"videoFormats": [
 		".mp4",
 		".mkv",
