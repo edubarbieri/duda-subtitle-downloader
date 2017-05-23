@@ -1,7 +1,7 @@
 # duda-subtitle-downloader
 Duda subtitle downloader.
 
-Este script percorre a pasta configurada e suas subpastas, verificando se os arquivos são videos e realiza o legenda apropriada para cada.
+Este script percorre a pasta configurada e suas subpastas, verificando se os arquivos são videos e realiza o download da legenda apropriada para cada.
 
 Num primeiro momento é buscado a legenda no opensubtitle a partir do hash do vídeo, caso não seja encontrada legenda correspondente, é então realizado query por nome do arquivo, e baixado as primeiras legendas encontradas.
 
